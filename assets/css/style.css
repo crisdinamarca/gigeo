@@ -19,9 +19,9 @@ h1 {
 
 @font-face {
   font-family: "Futura";
-  src: url("../../fonts/futura-webfont.eot");
+  src: url("../fonts/futura-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../../fonts/futura-webfont.eot") format("embedded-opentype"), url("../../fonts/futura-webfont.eot") format("woff2"), url("../../fonts/futura-webfont.eot") format("woff"), url("../../fonts/futura-webfont.eot") format("truetype"), url("../../fonts/futura-webfont.eot") format("svg");
+  src: url("../fonts/futura-webfont.woff") format("woff2"), url("../fonts/futura-webfont.woff") format("woff"), url("../fonts/futura-webfont.ttf") format("truetype"), url("../fonts/futura-webfont.svg") format("svg");
   /* Legacy iOS */
 }
 .menu__iconos ul {
@@ -57,6 +57,8 @@ h1 {
   font-family: "Futura", sans-serif;
   font-size: 31px;
   position: relative;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .navbar-brand span {
@@ -102,6 +104,11 @@ h1 {
     height: 150px;
   }
 }
+@media only screen and (max-width: 768px) {
+  #menu__principal {
+    padding: 0px 14%;
+  }
+}
 /* VIDEOS */
 #videos img {
   margin-bottom: 15px;
@@ -119,6 +126,10 @@ h1 {
 @media only screen and (max-width: 600px) {
   #videos {
     padding: 0px 14%;
+  }
+
+  #videos .video {
+    margin-bottom: 30px;
   }
 }
 .btn {

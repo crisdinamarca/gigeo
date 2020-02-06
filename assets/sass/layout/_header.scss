@@ -18,6 +18,7 @@
     font-size: $tam-autor-texto;
 }
 
+
 @media only screen and (max-width: 480px){
     #header .banner__principal-img{
         height: 110px;
@@ -26,5 +27,11 @@
 @media only screen and (min-width: 481px) and (max-width: 768px){
     #header .banner__principal-img{
         height: 150px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #menu__principal{
+        padding: 0px 14%;
     }
 }
