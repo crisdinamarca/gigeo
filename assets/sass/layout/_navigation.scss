@@ -23,3 +23,17 @@
 .navbar-light .navbar-toggler:focus{
     outline: 0;
 }
+.navbar-brand{
+    font-family: $futura;
+    font-size: $tam-logo;
+    position: relative;
+}
+.navbar-brand span{
+    font-size: $tam-logo-span;
+    position: absolute;
+    top: 3px;
+    right: -21px;
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+    font-weight: bold;
+}

@@ -17,6 +17,13 @@ h1 {
   font-size: 26px;
 }
 
+@font-face {
+  font-family: "Futura";
+  src: url("../../fonts/futura-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/futura-webfont.eot") format("embedded-opentype"), url("../../fonts/futura-webfont.eot") format("woff2"), url("../../fonts/futura-webfont.eot") format("woff"), url("../../fonts/futura-webfont.eot") format("truetype"), url("../../fonts/futura-webfont.eot") format("svg");
+  /* Legacy iOS */
+}
 .menu__iconos ul {
   display: flex;
   justify-content: center;
@@ -47,6 +54,22 @@ h1 {
 
 .navbar-light .navbar-toggler:focus {
   outline: 0;
+}
+
+.navbar-brand {
+  font-family: "Futura", sans-serif;
+  font-size: 31px;
+  position: relative;
+}
+
+.navbar-brand span {
+  font-size: 10px;
+  position: absolute;
+  top: 3px;
+  right: -21px;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+  font-weight: bold;
 }
 
 #header .banner__principal-img {
