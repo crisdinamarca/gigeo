@@ -9,3 +9,9 @@
 #videos p{
     font-size: $tam-texto;
 }
+
+@media only screen and (max-width:600px){
+    #videos{
+        padding: 0px 14%;
+    }
+}
